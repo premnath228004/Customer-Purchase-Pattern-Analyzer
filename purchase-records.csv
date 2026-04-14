@@ -1,0 +1,9 @@
+customerId,customerName,productName,category,quantity,price,date
+C001,Ayesha Khan,Milk,Dairy,3,70,2026-04-01
+C002,Rahul Patel,Tea Biscuits,Snacks,5,35,2026-04-02
+C001,Ayesha Khan,Paneer,Dairy,2,240,2026-04-02
+C003,Sonal Mehta,Shampoo,PersonalCare,1,180,2026-04-03
+C004,Ravi Sharma,Notebook,Stationery,4,55,2026-04-04
+C002,Rahul Patel,Chocolates,Snacks,2,120,2026-04-05
+C005,Meera Singh,Juice,Beverage,3,95,2026-04-05
+C001,Ayesha Khan,Tea Biscuits,Snacks,1,35,2026-04-06
