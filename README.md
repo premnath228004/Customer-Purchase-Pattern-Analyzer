@@ -1,42 +1,103 @@
-# Customer-Purchase-Pattern-Analyzer
-A hybrid system combining C++ backend and web frontend to analyze customer purchase behavior and generate meaningful insights.
 # Customer Purchase Pattern Analyzer
 
+A full-stack customer purchase analysis system that combines the performance of C++ with a modern HTML, CSS, and JavaScript web interface. The application helps analyze customer purchasing behavior, classify customers based on spending patterns, and generate meaningful business insights.
+
+## Live Demo
+
+https://customer-purchase-pattern-analyzer.onrender.com
+
 ## Overview
-This project is a hybrid system that analyzes customer purchase behavior using a C++ backend and a web frontend (HTML, CSS, JavaScript). It helps in understanding buying patterns and generating useful insights.
+
+Customer Purchase Pattern Analyzer is designed to analyze customer purchasing data and identify spending trends. It enables businesses to classify customers based on purchase behavior and provides a simple web interface for interacting with the analysis system.
 
 ## Features
-- Store and manage purchase records  
-- Identify high, medium, and low spending customers  
-- Analyze purchase patterns  
-- File handling using C++  
-- Simple web interface  
 
-## Tech Stack
-- Backend: C++  
-- Frontend: HTML, CSS, JavaScript  
-- Data: Text/CSV files  
+- Customer purchase analysis
+- Spending pattern classification (High, Medium, Low)
+- CSV and text file processing
+- Fast C++ analysis engine
+- Interactive web interface
+- Save and load purchase records
+- Business insight generation
+
+## Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| C++ | Core analysis engine |
+| Node.js | Web server |
+| HTML5 | Frontend |
+| CSS3 | Styling |
+| JavaScript | Client-side functionality |
+| CSV / TXT | Data storage |
 
 ## Project Structure
-Customer-Purchase-Pattern-Analyzer/
-backend → C++ files  
-frontend → HTML, CSS, JS files  
 
-## How to Run
+```text
+Customer-Purchase-Pattern-Analyzer
+│
+├── Analyzer.cpp
+├── Analyzer.h
+├── Purchase.cpp
+├── Purchase.h
+├── Filehandler.cpp
+├── Filehandler.h
+├── main.cpp
+├── server.js
+├── package.json
+├── purchase-records.csv
+├── data.txt
+│
+└── web
+    ├── index.html
+    ├── styles.css
+    ├── app.js
+```
 
-Backend:
-1. Open terminal  
-2. Compile:
-g++ main.cpp Analyzer.cpp Filehandler.cpp Purchase.cpp -o app  
-3. Run:
-./app  
+## Installation
 
-Frontend:
-1. Open index.html in browser  
+Clone the repository:
 
-## Sample Data
-- purchase-records.csv → sample data  
-- data.txt → stored data  
+```bash
+git clone https://github.com/premnath228004/Customer-Purchase-Pattern-Analyzer.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the application:
+
+```bash
+npm start
+```
+
+Open your browser:
+
+```
+http://localhost:3000
+```
+
+## Live Deployment
+
+The application is deployed on Render and can be accessed here:
+
+https://customer-purchase-pattern-analyzer.onrender.com
+
+## Future Enhancements
+
+- MySQL database integration
+- AI-based purchase prediction
+- Customer recommendation system
+- Export reports as PDF
+- Authentication system
+- Interactive analytics dashboard
+- Data visualization using charts
 
 ## Author
-Prem Nath
+
+**Prem Nath**
+
+GitHub: https://github.com/premnath228004
