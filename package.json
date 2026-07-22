@@ -1,0 +1,22 @@
+{
+  "name": "customer-purchase-pattern-analyzer",
+  "version": "1.0.0",
+  "description": "A hybrid system combining C++ backend and web frontend to analyze customer purchase behavior and generate meaningful insights.\r # Customer Purchase Pattern Analyzer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/premnath228004/Customer-Purchase-Pattern-Analyzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/premnath228004/Customer-Purchase-Pattern-Analyzer/issues"
+  },
+  "homepage": "https://github.com/premnath228004/Customer-Purchase-Pattern-Analyzer#readme"
+}
